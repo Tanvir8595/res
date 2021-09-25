@@ -1,0 +1,151 @@
+@media (max-width:1400px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .col-md-8 {
+
+        padding: 0;
+    }
+}
+
+@media (max-width:1200px) {
+    .header-menu ul li a {
+        padding: 0 22px;
+
+    }
+
+    .header-menu ul {
+        text-align: right;
+        margin-bottom: 0;
+    }
+
+    .col-md-8 {
+
+        padding: 0;
+    }
+}
+
+@media (max-width:992px) {
+
+    .header-menu ul li a {
+        padding: 0 22px;
+
+    }
+}
+
+@media (max-width:950px) {
+    .header-menu ul li a {
+        padding: 0 12px;
+
+    }
+
+}
+
+@media (max-width:768px) {
+    .banner {
+
+        padding: 100px 0;
+    }
+
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .header-menu ul {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .header-menu ul li a {
+        padding: 0 12px;
+        border: navajowhite;
+        line-height: 50px;
+    }
+
+    .banner-contant h2 {
+
+        font-size: 28px;
+
+    }
+
+    .banner-contant h1 {
+
+        font-size: 35px;
+
+    }
+
+    .blog-img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    .work-item {
+        margin: 0 15px;
+    }
+
+    .contact-right {
+        margin-top: 20px;
+    }
+
+    .f {
+        text-align: center;
+    }
+
+    .footer p {
+        margin-bottom: 0;
+        line-height: 46px;
+        font-size: 18px;
+    }
+
+    .socal-icon {
+        text-align: center;
+    }
+
+    .socal-icon a {
+        font-size: 17px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+
+    }
+
+}
+@media (max-width:480px) {
+    .header-menu ul li a {
+        padding: 0 7px;
+       
+    }
+    .banner {
+        padding: 60px 0;
+    }
+    .banner-contant h1 {
+        font-size: 25px;
+    }
+    .banner-contant h2 {
+        font-size: 20px;
+    }
+    .w-50 {
+        width: 100%!important;
+    }
+    p {
+        
+        font-size: 14px;
+       
+    }
+
+}
